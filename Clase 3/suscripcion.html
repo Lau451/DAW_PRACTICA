@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suscripcion</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1>¡Suscríbete a nuestro boletín!</h1>
+      <form action="">
+        <p>
+          Ingresa tus datos para recibir nuestras últimas noticias y
+          promociones:
+        </p>
+        <div>
+          <label>Nombre:</label>
+          <input type="text" name="nombre" required />
+        </div>
+        <br />
+        <div>
+          <label>Apellido:</label>
+          <input type="text" name="apellido" required />
+        </div>
+        <br />
+        <div>
+          <label>Email:</label>
+          <input type="email" name="email" required />
+        </div>
+        <br />
+        <div>
+          <label>Edad:</label>
+          <input type="number" name="edad" required />
+        </div>
+        <br />
+        <div>
+          <label>Fecha de nacimiento:</label>
+          <input type="date" name="FechaNac" required />
+        </div>
+        <br />
+        <div>
+          <label for="genero">Género:</label>
+          <select id="genero" name="genero" required>
+            <option value="">Selecciona tu género</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label>País:</label>
+          <input type="text" name="pais" required />
+        </div>
+        <br />
+        <div>
+          <label>Comentario:</label>
+          <textarea name="comentario"></textarea>
+        </div>
+        <br />
+        <div>
+          <input type="submit" value="Suscribirse" />
+        </div>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
